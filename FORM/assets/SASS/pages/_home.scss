@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+}
+
+.container {
+    width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+    h1 {
+        color: #ffffff;
+        background-color: #2dbaa6;
+        font-size: 50px;
+        padding-top: 10px;
+        padding-left: 25px;
+        padding-bottom: 10px;
+    }
+    form {
+        .required {
+            font-size: 22px;
+            p {
+                margin-top: 40px;
+            }
+            p:after {
+                content: ("*");
+                color: red;
+            }
+        }
+        input {
+            margin-top: 5px;
+            width: 45%;
+            height: 45px;
+            padding: 20px;
+            font-size: 16px;
+            // border: none;
+            cursor: pointer;
+        }
+        #contactus_button {
+            font-size: 25px;
+            color: #ffffff;
+            background-color: #2dbaa6;
+            border: none;
+            padding: 5px 15px;
+            position: absolute;
+            top: 520px;
+            cursor: pointer;
+            &:hover {
+                opacity: .8;
+            }
+        }
+    }
+}

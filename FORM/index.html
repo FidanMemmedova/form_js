@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <script defer src="./assets/js/main.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Contact Us</h1>
+        </div>
+        <div class="row">
+            <form id="contact_form">
+                <label class="required" for="fullname">
+          <p>Full name</p>
+        </label>
+                <input id="firstname" type="text" required placeholder="First" minlength="3" />
+                <input id="lastname" type="text" required placeholder="Last" minlength="3" />
+                <label class="required" for="age">
+          <p>Age</p>
+        </label>
+                <input id="age" type="number" required placeholder="Age" min="1">
+                <label class="required" for="email">
+          <p>Email</p>
+        </label>
+                <input id="email" type="email" required placeholder="Email" />
+                <button id="contactus_button" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
